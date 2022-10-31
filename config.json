@@ -1,0 +1,6 @@
+{
+"url-backend": "127.0.0.2",
+"port": 9999,
+"data-db-connection":"mongodb+srv://project:1234@cluster0.wiebdar.mongodb.net/RegistraduriaNacional?retryWrites=true&w=majority",
+"name-db": "RegistraduriaNacional"
+}
