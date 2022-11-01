@@ -18,8 +18,8 @@ class ControladorPartido():
 
     def update(self,id,infoPartido):
         PartidoActual=Partido(self.repositorioPartido.findById(id))
-        PartidoActual.nombre=infoPartido["nombre"]
-        PartidoActual.descripcion = infoPartido["descripcion"]
+        PartidoActual.nombre=infoPartido["Nombre"]
+        PartidoActual.descripcion = infoPartido["Lema"]
         return self.repositorioPartido.save(PartidoActual)
 
     def delete(self,id):
